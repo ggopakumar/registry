@@ -1,0 +1,8 @@
+server:
+  port: ${REGISTRY_MS_PORT}
+eureka:
+  instance:
+    hostname: ${REGISTRY_MS_IP}
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
